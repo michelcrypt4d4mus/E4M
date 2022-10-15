@@ -1,0 +1,33 @@
+*** volmount.c	Sat Nov 18 14:52:26 2000
+--- \dev\e4m202\volmount\volmount.c	Thu Oct 05 13:52:26 2000
+***************
+*** 96,104 ****
+  		bEnable = FALSE;
+  
+  	EnableWindow (hOKButton, bEnable);
+! 
+! 	if (nCurrentShowType != SHOW_UNMOUNT)
+! 		EnableWindow (hChangeButton, bEnable);
+  }
+  
+  void
+--- 96,102 ----
+  		bEnable = FALSE;
+  
+  	EnableWindow (hOKButton, bEnable);
+! 	EnableWindow (hChangeButton, bEnable);
+  }
+  
+  void
+***************
+*** 563,571 ****
+  		Hide (hwndDlg, IDC_NO_DRIVES_STATIC);
+  	else
+  		Show (hwndDlg, IDC_NO_DRIVES_STATIC);
+- 
+- 	if (nShowType != SHOW_NOTHING)
+- 		PostMessage(hwndDlg, WM_USER, 0, 0L);
+  
+  	nCurrentShowType = nShowType;
+  }
+--- 561,566 ----

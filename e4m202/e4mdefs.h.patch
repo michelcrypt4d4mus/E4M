@@ -1,0 +1,19 @@
+*** e4mdefs.h	Sat Nov 18 15:00:12 2000
+--- \dev\e4m202\common\e4mdefs.h	Tue Oct 03 16:32:08 2000
+***************
+*** 48,54 ****
+  
+  /* version displayed to user */
+  
+! #define VERSION_STRING                  "V2.02a"
+  
+  /* version number to compare against driver */
+  
+--- 48,54 ----
+  
+  /* version displayed to user */
+  
+! #define VERSION_STRING                  "V2.0.2"
+  
+  /* version number to compare against driver */
+  
