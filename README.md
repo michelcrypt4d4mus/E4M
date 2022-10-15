@@ -23,3 +23,7 @@ Older version with NT support only
 E4M200.exe
 
 E4M200s.zip
+
+---
+
+Source for E4M202 was found in [the TrueCrypt archive](https://github.com/DrWhax/truecrypt-archive.git)
